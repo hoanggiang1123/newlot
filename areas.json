@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "5f50a57779e73241acba3670"
+  },
+  "name": "Xổ Số Miền Bắc",
+  "slug": "xo-so-mien-bac",
+  "code": "MB",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f50a57779e73241acba3671"
+  },
+  "name": "Xổ Số Miền Nam",
+  "slug": "xo-so-mien-nam",
+  "code": "MN",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f50a57779e73241acba3672"
+  },
+  "name": "Xổ Số Miền Trung",
+  "slug": "xo-so-mien-trung",
+  "code": "MT",
+  "__v": 0
+}]
