@@ -8,7 +8,7 @@ const { getCrawLotteryUrl, parseContent, parseContentMb, getContent } = require(
 const getCityBySlug =  (slug) => {
     return new Promise((resolve, reject) => {
         City.findOne({ slug })
-        .populate('area', '_id name slug code')
+        .populate('area', '_id name slug code order')
         .select('_id name slug code area')
         .exec((err, data) => {
             if(err) {
@@ -35,13 +35,14 @@ const generateRandomTitle =  (fullname, sumname) => {
 const lotteryExist = (check) => {
     return new Promise((resolve, reject) => {
         Lottery.findOne({ check }).exec((err, data) => {
-            if (data) {
-                resolve(true)
-            } else {
-                resolve(false)
-            }
+            if (!data) {
+                resolve(false);
+            } 
+            resolve(true);
+
             if (err) {
-                reject('error occur')
+
+                reject('error occur');
             }
         })
     })
@@ -52,28 +53,17 @@ const sleep = (second) => {
 }
 
 exports.craw = async (req, res) => {
-
+    res.send('getting loto...');
     const { slug, start, end } = req.params;
     const urlArr = getCrawLotteryUrl(slug, start, end);
-    // Lottery.find({'area.slug': 'xo-so-mien-trung'}).exec( async (err, data) => {
-    //     if(data) {
-    //         for(let i = 0; i < data.length; i++) {
-    //             let item = data[i];
-    //             Lottery.findOne({ _id: item._id }).exec( async (err, lot) => {
-    //                 if(lot) {
-    //                     await lot.remove();
-    //                 }
-    //             })
-    //         }
-    //     }
-    // })
-
+    
+    let fail = [];
     if (urlArr.length) {
+       
+        for await (const k of urlArr) {
 
-        for (let k = 0; k < urlArr.length; k++) {
-
-            let path = urlArr[k].path;
-            let date = urlArr[k].dayStr;
+            let path = k.path;
+            let date = k.dayStr;
             let day = new Date(date).getDay();
             try {
                 let content = await getContent(path);
@@ -102,7 +92,7 @@ exports.craw = async (req, res) => {
 
                         if(Object.keys(data).length) {
 
-                            for (const key of Object.keys(data)) {
+                            for await (const key of Object.keys(data)) {
                                 
                                 if (data[key]) {
                                     
@@ -110,8 +100,8 @@ exports.craw = async (req, res) => {
 
                                     try {
                                         const check = await lotteryExist(checkSlug);
-
-                                        if (!check) {
+                                        
+                                        if (check === false) {
 
                                             const cityAreaObj = await getCityBySlug(key);
                 
@@ -121,16 +111,16 @@ exports.craw = async (req, res) => {
                                             let subname = '';
                     
                                             if (cityAreaObj !== null) {
-                    
+
                                                 city = { _id: cityAreaObj._id, name: cityAreaObj.name, slug: cityAreaObj.slug, code: cityAreaObj.code };
-                    
-                                                area = { _id: cityAreaObj.area._id, name: cityAreaObj.area.name, slug: cityAreaObj.area.slug, code: cityAreaObj.area.code }
-                    
+                                                
+                                                area = { _id: cityAreaObj.area._id, name: cityAreaObj.area.name, slug: cityAreaObj.area.slug, code: cityAreaObj.area.code, order: cityAreaObj.area.order }
+                                                
                                                 name = generateRandomTitle(cityAreaObj.name, cityAreaObj.code);
                                                 subname = generateRandomTitle(cityAreaObj.area.name, cityAreaObj.area.code);
                     
                                             }
-                                            
+
                                             const { db, g1, g2, g3, g4, g5, g6, g7, g8 } = data[key];
                     
                                             const result = { db, g1, g2, g3, g4, g5, g6, g7, g8 };
@@ -155,6 +145,8 @@ exports.craw = async (req, res) => {
                             }
                         }
                     }
+                } else {
+                    fail.push(k);
                 }
         
             } catch (err) {
@@ -164,6 +156,5 @@ exports.craw = async (req, res) => {
 
         }
     }
-
-    res.send('getting loto...');
+    console.log(fail)
 }

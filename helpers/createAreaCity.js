@@ -10,7 +10,7 @@ const createAreaCity = async () => {
     
     for(const index of lotoArr) {
         const areaName = mapArea[index];
-        const area = new Area({ name:  areaName, slug: index, code: '' });
+        const area = new Area({ name:  areaName, slug: index, code: '', order: 0 });
         try {
             await area.save( async (err, data) => {
                 if(err) {

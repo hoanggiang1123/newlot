@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-const { list, create } = require('../controllers/lottery.js');
+const { list, create, areaList } = require('../controllers/lottery.js');
 
 router.get('/lotteries', list);
 router.post('/lottery', create);
+router.get('/lottery/:area', areaList);
 
 
 module.exports = router;

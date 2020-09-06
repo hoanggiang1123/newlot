@@ -203,6 +203,11 @@ const LOTOVN = {
             name: 'Quảng Ngãi',
             sum: 'QN',
             day: [{ name: 'Thứ 7', slug: 'thu-7'}]
+        },
+        'binh-dinh': {
+            name: 'Bình Định',
+            sum: 'BĐ',
+            day: [{ name: 'Thứ 5', slug: 'thu-5'}]
         }
     }
 }

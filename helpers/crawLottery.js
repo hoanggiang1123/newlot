@@ -97,14 +97,13 @@ const getContent = (path) => {
             res.on('data', data => {
                 strData += data;
             })
-            req.on('timeout', () => {
-                resolve(null);
-            })
             res.on('end', () => {
                 resolve(strData);
             })
         })
-
+        req.on('timeout', () => {
+            resolve(null);
+        })
         req.on('error', error => {
             reject(error)
         })

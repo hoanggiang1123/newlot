@@ -3,6 +3,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
+const { resolve } = require('path');
 
 require('dotenv').config();
 
@@ -14,7 +15,7 @@ const port = process.env.PORT || 8000;
 
 //db
 mongoose
-    .connect(process.env.DATABASE_LOCAL, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false, useUnifiedTopology: true })
+    .connect(process.env.DATABASE_CLOUD, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false, useUnifiedTopology: true })
     .then(() => console.log('DB connected'))
     .catch(err => {
         console.log(err);
@@ -29,12 +30,12 @@ app.use(cookieParser());
 app.get('/test', function(req, res) {
     setTimeout(() => {
         res.send('okokoko');
-    }, 5000)
+    }, 10000)
 })
 
 app.use('/api', require('./routes/lottery'));
 app.use('/craw', require('./routes/crawLottery'));
-// app.use('/create-area-city', require('./routes/createAreaCity'))
+app.use('/create-area-city', require('./routes/createAreaCity'));
 
 
 http.listen(port, () => console.log(`App running on port ${port}`));

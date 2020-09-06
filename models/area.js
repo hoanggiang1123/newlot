@@ -16,6 +16,7 @@ const areaSchema = new mongoose.Schema({
     code: {
         type: String
     },
+    order: Number,
     description: {
         type: {},
         min: 200,

@@ -50,7 +50,8 @@ const lotterySchema = new mongoose.Schema({
         _id: String,
         name: String,
         slug: String,
-        code: String
+        code: String,
+        order: Number
     },
     city: {
         _id: String,
