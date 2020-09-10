@@ -33,6 +33,10 @@ app.get('/test', function(req, res) {
     }, 10000)
 })
 
+const createAreaCity = require('./helpers/createAreaCity');
+
+createAreaCity();
+
 app.use('/api', require('./routes/lottery'));
 app.use('/craw', require('./routes/crawLottery'));
 app.use('/create-area-city', require('./routes/createAreaCity'));
