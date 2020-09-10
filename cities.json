@@ -1,451 +1,452 @@
 [{
   "_id": {
-    "$oid": "5f50a57779e73241acba3673"
+    "$oid": "5f545c2c62e68ba8100ac465"
   },
   "name": "Thái Bình",
   "slug": "thai-binh",
   "code": "TB",
   "area": {
-    "$oid": "5f50a57779e73241acba3670"
+    "$oid": "5f545c2b62e68ba8100ac462"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3674"
-  },
-  "name": "Đà Lạt",
-  "slug": "da-lat",
-  "code": "ĐL",
-  "area": {
-    "$oid": "5f50a57779e73241acba3671"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba3675"
+    "$oid": "5f545c2c62e68ba8100ac466"
   },
   "name": "Khánh Hòa",
   "slug": "khanh-hoa",
   "code": "KH",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
+    "$oid": "5f545c2b62e68ba8100ac464"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3676"
+    "$oid": "5f545c2c62e68ba8100ac467"
   },
-  "name": "Hà Nội",
-  "slug": "ha-noi",
-  "code": "HN",
+  "name": "Đà Lạt",
+  "slug": "da-lat",
+  "code": "ĐL",
   "area": {
-    "$oid": "5f50a57779e73241acba3670"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3677"
-  },
-  "name": "Kiên Giang",
-  "slug": "kien-giang",
-  "code": "KG",
-  "area": {
-    "$oid": "5f50a57779e73241acba3671"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba3678"
+    "$oid": "5f545c2c62e68ba8100ac469"
   },
   "name": "Kon Tum",
   "slug": "kon-tum",
   "code": "KT",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
+    "$oid": "5f545c2b62e68ba8100ac464"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3679"
+    "$oid": "5f545c2c62e68ba8100ac468"
+  },
+  "name": "Hà Nội",
+  "slug": "ha-noi",
+  "code": "HN",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac462"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2c62e68ba8100ac46a"
+  },
+  "name": "Kiên Giang",
+  "slug": "kien-giang",
+  "code": "KG",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac463"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2c62e68ba8100ac46c"
   },
   "name": "Quảng Ninh",
   "slug": "quang-ninh",
   "code": "QN",
   "area": {
-    "$oid": "5f50a57779e73241acba3670"
+    "$oid": "5f545c2b62e68ba8100ac462"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba367a"
+    "$oid": "5f545c2c62e68ba8100ac46d"
   },
   "name": "Tiền Giang",
   "slug": "tien-giang",
   "code": "TG",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba367b"
-  },
-  "name": "Huế",
-  "slug": "thua-thien-hue",
-  "code": "TTH",
-  "area": {
-    "$oid": "5f50a57779e73241acba3672"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba367c"
+    "$oid": "5f545c2c62e68ba8100ac46e"
   },
   "name": "Bắc Ninh",
   "slug": "bac-ninh",
   "code": "BN",
   "area": {
-    "$oid": "5f50a57779e73241acba3670"
+    "$oid": "5f545c2b62e68ba8100ac462"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba367d"
+    "$oid": "5f545c2c62e68ba8100ac46b"
+  },
+  "name": "Huế",
+  "slug": "thua-thien-hue",
+  "code": "TTH",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac464"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2c62e68ba8100ac46f"
   },
   "name": "Cà Mau",
   "slug": "ca-mau",
   "code": "CM",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba367e"
-  },
-  "name": "Phú Yên",
-  "slug": "phu-yen",
-  "code": "PY",
-  "area": {
-    "$oid": "5f50a57779e73241acba3672"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba367f"
+    "$oid": "5f545c2c62e68ba8100ac470"
   },
   "name": "Hải Phòng",
   "slug": "hai-phong",
   "code": "HP",
   "area": {
-    "$oid": "5f50a57779e73241acba3670"
+    "$oid": "5f545c2b62e68ba8100ac462"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3680"
+    "$oid": "5f545c2c62e68ba8100ac471"
+  },
+  "name": "Phú Yên",
+  "slug": "phu-yen",
+  "code": "PY",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac464"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2c62e68ba8100ac472"
   },
   "name": "Đồng Thap",
   "slug": "dong-thap",
   "code": "DT",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3681"
-  },
-  "name": "Đắk Lắk",
-  "slug": "dac-lac",
-  "code": "ĐL",
-  "area": {
-    "$oid": "5f50a57779e73241acba3672"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba3682"
+    "$oid": "5f545c2c62e68ba8100ac473"
   },
   "name": "Nam Định",
   "slug": "nam-dinh",
   "code": "ND",
   "area": {
-    "$oid": "5f50a57779e73241acba3670"
+    "$oid": "5f545c2b62e68ba8100ac462"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3683"
+    "$oid": "5f545c2c62e68ba8100ac475"
   },
   "name": "TP.HCM",
   "slug": "tphcm",
   "code": "HCM",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3684"
+    "$oid": "5f545c2c62e68ba8100ac474"
   },
-  "name": "Quảng Nam",
-  "slug": "quang-nam",
-  "code": "QN",
+  "name": "Đắk Lắk",
+  "slug": "dac-lac",
+  "code": "ĐL",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
+    "$oid": "5f545c2b62e68ba8100ac464"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3685"
+    "$oid": "5f545c2c62e68ba8100ac476"
   },
   "name": "Bạc Liêu",
   "slug": "bac-lieu",
   "code": "BL",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3686"
+    "$oid": "5f545c2c62e68ba8100ac477"
   },
-  "name": "Đà Nẵng",
-  "slug": "da-nang",
-  "code": "ĐN",
+  "name": "Quảng Nam",
+  "slug": "quang-nam",
+  "code": "QN",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
+    "$oid": "5f545c2b62e68ba8100ac464"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3687"
+    "$oid": "5f545c2c62e68ba8100ac478"
   },
   "name": "Bến Tre",
   "slug": "ben-tre",
   "code": "BT",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3688"
+    "$oid": "5f545c2c62e68ba8100ac479"
   },
-  "name": "Quảng Bình",
-  "slug": "quang-binh",
-  "code": "QB",
+  "name": "Đà Nẵng",
+  "slug": "da-nang",
+  "code": "ĐN",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
+    "$oid": "5f545c2b62e68ba8100ac464"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3689"
+    "$oid": "5f545c2c62e68ba8100ac47a"
   },
   "name": "Vũng Tàu",
   "slug": "vung-tau",
   "code": "VT",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba368a"
+    "$oid": "5f545c2c62e68ba8100ac47b"
   },
-  "name": "Quảng Trị",
-  "slug": "quang-tri",
-  "code": "QT",
+  "name": "Quảng Bình",
+  "slug": "quang-binh",
+  "code": "QB",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
+    "$oid": "5f545c2b62e68ba8100ac464"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba368b"
+    "$oid": "5f545c2c62e68ba8100ac47c"
   },
   "name": "Cần Thơ",
   "slug": "can-tho",
   "code": "CT",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba368c"
+    "$oid": "5f545c2c62e68ba8100ac47d"
+  },
+  "name": "Quảng Trị",
+  "slug": "quang-tri",
+  "code": "QT",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac464"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2c62e68ba8100ac47f"
   },
   "name": "Giai Lai",
   "slug": "gia-lai",
   "code": "GL",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
+    "$oid": "5f545c2b62e68ba8100ac464"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba368d"
+    "$oid": "5f545c2c62e68ba8100ac47e"
   },
   "name": "Đồng Nai",
   "slug": "dong-nai",
   "code": "ĐN",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba368e"
+    "$oid": "5f545c2c62e68ba8100ac480"
   },
   "name": "Ninh Thuận",
   "slug": "ninh-thuan",
   "code": "NT",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
+    "$oid": "5f545c2b62e68ba8100ac464"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba368f"
+    "$oid": "5f545c2c62e68ba8100ac481"
   },
   "name": "Sóc Trăng",
   "slug": "soc-trang",
   "code": "ST",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3690"
+    "$oid": "5f545c2c62e68ba8100ac482"
   },
   "name": "Đắk Nông",
   "slug": "dac-nong",
   "code": "ĐN",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
+    "$oid": "5f545c2b62e68ba8100ac464"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3691"
+    "$oid": "5f545c2c62e68ba8100ac483"
   },
   "name": "An Giang",
   "slug": "an-giang",
   "code": "AG",
   "area": {
-    "$oid": "5f50a57779e73241acba3671"
+    "$oid": "5f545c2b62e68ba8100ac463"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3692"
+    "$oid": "5f545c2c62e68ba8100ac484"
   },
   "name": "Quảng Ngãi",
   "slug": "quang-ngai",
   "code": "QN",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
+    "$oid": "5f545c2b62e68ba8100ac464"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "5f50a57779e73241acba3693"
-  },
-  "name": "Bình Thuận",
-  "slug": "binh-thuan",
-  "code": "BT",
-  "area": {
-    "$oid": "5f50a57779e73241acba3671"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba3694"
-  },
-  "name": "Tây Ninh",
-  "slug": "tay-ninh",
-  "code": "TN",
-  "area": {
-    "$oid": "5f50a57779e73241acba3671"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba3695"
-  },
-  "name": "Bình Dương",
-  "slug": "binh-duong",
-  "code": "BD",
-  "area": {
-    "$oid": "5f50a57779e73241acba3671"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba3696"
-  },
-  "name": "Trà Vinh",
-  "slug": "tra-vinh",
-  "code": "TV",
-  "area": {
-    "$oid": "5f50a57779e73241acba3671"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba3697"
-  },
-  "name": "Vĩnh Long",
-  "slug": "vinh-long",
-  "code": "VL",
-  "area": {
-    "$oid": "5f50a57779e73241acba3671"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba3698"
-  },
-  "name": "Bình Phước",
-  "slug": "binh-phuoc",
-  "area": {
-    "$oid": "5f50a57779e73241acba3671"
-  },
-  "__v": 0,
-  "code": "BP"
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba3699"
-  },
-  "name": "Hậu Giang",
-  "slug": "hau-giang",
-  "code": "HG",
-  "area": {
-    "$oid": "5f50a57779e73241acba3671"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f50a57779e73241acba369a"
-  },
-  "name": "Long An",
-  "slug": "long-an",
-  "code": "LA",
-  "area": {
-    "$oid": "5f50a57779e73241acba3671"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5f51fe23092f65188c3e68b4"
+    "$oid": "5f545c2c62e68ba8100ac486"
   },
   "name": "Bình Định",
   "slug": "binh-dinh",
   "code": "BĐ",
   "area": {
-    "$oid": "5f50a57779e73241acba3672"
-  }
+    "$oid": "5f545c2b62e68ba8100ac464"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2c62e68ba8100ac485"
+  },
+  "name": "Bình Thuận",
+  "slug": "binh-thuan",
+  "code": "BT",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac463"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2c62e68ba8100ac487"
+  },
+  "name": "Tây Ninh",
+  "slug": "tay-ninh",
+  "code": "TN",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac463"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2c62e68ba8100ac488"
+  },
+  "name": "Bình Dương",
+  "slug": "binh-duong",
+  "code": "BD",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac463"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2c62e68ba8100ac489"
+  },
+  "name": "Trà Vinh",
+  "slug": "tra-vinh",
+  "code": "TV",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac463"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2d62e68ba8100ac48a"
+  },
+  "name": "Vĩnh Long",
+  "slug": "vinh-long",
+  "code": "VL",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac463"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2d62e68ba8100ac48b"
+  },
+  "name": "Bình Phước",
+  "slug": "binh-phuoc",
+  "code": "BP",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac463"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2d62e68ba8100ac48c"
+  },
+  "name": "Hậu Giang",
+  "slug": "hau-giang",
+  "code": "HG",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac463"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f545c2d62e68ba8100ac48d"
+  },
+  "name": "Long An",
+  "slug": "long-an",
+  "code": "LA",
+  "area": {
+    "$oid": "5f545c2b62e68ba8100ac463"
+  },
+  "__v": 0
 }]
